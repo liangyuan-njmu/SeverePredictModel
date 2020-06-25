@@ -1,0 +1,14 @@
+Package: SeverePredictModel
+Type: Package
+Title: Predict model for severe COVID-19 patients
+Version: 0.1.0
+Author: liangyuan
+Maintainer: liangyuan<liangyuan@njmu.edu.cn>
+Description: predict whether COVID-19 patients without symptoms on admission are severe
+License: GLP
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.6.1)
+Imports: lattice, ggplot2, rpart, caret, foreach, iterators, parallel,
+        doParallel, adabag
+Built: R 3.6.1; ; 2020-06-25 12:13:19 UTC; unix
